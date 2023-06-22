@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AchievementActivity"
+    android:background="@drawable/bg_kosongan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rellay">
+
+    <TextView
+        android:id="@+id/achieve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="ACHIEVEMENT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/achieve"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview1"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="15dp"
+                    android:background="@drawable/lincoln"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/detail1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Memindai kartu total 48 kartu dan SCAN AR"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            />
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:id="@+id/bunder"
+                            android:src="@drawable/bunder" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Card Collector"
+                            android:id="@+id/textbunder"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview2"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="15dp"
+                    android:background="@drawable/lincoln"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/detail2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mendapatkan nilai diatas 700 sebanyak 20x"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            />
+
+                        <ImageView
+                            android:id="@+id/mthri"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/srengenge"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Good Work"
+                            android:id="@+id/textmthr"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview3"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="15dp"
+                    android:background="@drawable/lincoln"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/bakteri"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nice Move"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview4"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="15dp"
+                    android:background="@drawable/lincoln"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/detail4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mendapatkan nilai 1000 dalam evaluasi sebanyak 10x"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            />
+
+                        <ImageView
+                            android:id="@+id/hedset"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/hedset"/>
+
+                        <TextView
+                            android:id="@+id/theadset"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Intelligent"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview5"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="15dp"
+                    android:background="@drawable/lincoln"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/detail5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Membaca seluruh materi Biomastery"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            />
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/sientis"
+                            android:id="@+id/dokter"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hard-working"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:id="@+id/tdokter"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview6"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="15dp"
+                    android:background="@drawable/lincoln"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/tigaroda"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/tigaroda"/>
+
+                        <TextView
+                            android:id="@+id/ttigaroda"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Good Start"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

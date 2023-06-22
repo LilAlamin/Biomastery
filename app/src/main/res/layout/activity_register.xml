@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        app:srcCompat="@drawable/logo_1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan masukkan email anda "
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Untuk masuk ke aplikasi"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="Masukkan Email Anda"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/form_bg"
+        android:textSize="15dp"
+        android:paddingStart="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="Masukkan Paswword Anda"
+        android:minHeight="48dp"
+        android:background="@drawable/form_bg"
+        android:textSize="15dp"
+        android:paddingStart="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/passwordChek"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="Ulangi Password Anda"
+        android:minHeight="48dp"
+        android:background="@drawable/form_bg"
+        android:textSize="15dp"
+        android:paddingStart="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordChek"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="25dp"
+        android:text="Daftar"
+        android:backgroundTint="#2B7A0B"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yuk_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_marginTop="15dp"
+        android:textColor="#013C03"
+        android:text="Sudah punya akun? Klik Disini"
+        android:textAlignment="center" />
+
+</RelativeLayout>
